@@ -1,0 +1,35 @@
+1 Ejercicio
+
+	En compuweb Colima, se necesita saber el
+	cobro por tiempo que se utiliza las computadoras.mediante un 			sistema, los cobros seran representados a continuacion: 
+	
+	1-3 hrs = 10$ por hora
+	4-6 hrs = 8$ por hora
+	7-9 hrs = 6$ por hora
+	10-> hrs = 4$ por hora
+2
+nivel de testeo: unidad.
+por que: por que este es el testeo de solo un metodo, de un posible proyecto completo.Ademas que no se contacta con mas partes de otro proyecto o otro sistema, ejemplo bases de datos de "X" compañia.
+
+3 Tabla
+
+	Test data   Expected results 	
+	2		20$
+	5		40$
+	8		48$	
+	11		44$
+	1		10$
+	3		30$
+	4		32$
+	6		48$
+	7		42$
+	9		36$
+	10		40$
+	-1		invalido
+	0		invalido
+
+	rangos
+
+1-----3  4------6 7------9 10-----+     - -----0 
+ valido	  valido   valido   valido	invalido
+
